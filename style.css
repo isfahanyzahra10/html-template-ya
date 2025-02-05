@@ -1,0 +1,360 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: url('images/gambar3.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 15px;
+    
+}
+.header img {
+    max-width: 200px;
+    border-radius: 70%;
+    border: 6px solid #d4af37;
+}
+.header h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 42px;
+    color: #d4af37;
+    margin-top: 10px;
+}
+.content h2 {
+    font-size: 24px;
+    color: white;
+}
+.content p {
+    font-size: 18px; 
+    color: white;
+    line-height: 1.8;
+}
+.countdown {
+    font-size: 22px;
+    font-weight: bold;
+    color: #d4af37;
+    margin-top: 20px;
+}
+.button {
+    display: inline-block;
+    background: #d4af37;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+}
+.button:hover {
+    background: #b5952b;
+}
+.guestbook {
+    max-width: 500px;
+    background: #e6f0d5;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 50px auto;
+    color: black;
+}
+.guestbook h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 36px;
+    color: #8FBC8F;
+}
+label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #d4af37;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+textarea {
+    height: 100px;
+    resize: none;
+}
+.btn {
+    background: #8FBC8F;
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn:hover {
+    background: #2F4F4F;
+}
+.intro {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #4e4e4e;
+}
+.couple {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.profile {
+    text-align: center;
+}
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #d4af37;
+}
+.name {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+.nickname {
+    font-style: italic;
+    color: #d4af37;
+}
+.desc {
+    font-size: 14px;
+    color: #4e4e4e;
+} body {
+    font-family: 'Open Sans', sans-serif;
+    background: url('images/gambar3.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+
+.header img {
+    max-width: 200px;
+    border-radius: 70%;
+    border: 6px solid #d4af37;
+}
+.header h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 42px;
+    color: #d4af37;
+    margin-top: 10px;
+}
+.content h2 {
+    font-size: 24px;
+    color: white;
+}
+.content p {
+    font-size: 18px; 
+    color: white;
+    line-height: 1.8;
+}
+.countdown {
+    font-size: 22px;
+    font-weight: bold;
+    color: #d4af37;
+    margin-top: 20px;
+}
+.button {
+    display: inline-block;
+    background: #d4af37;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+}
+.button:hover {
+    background: #b5952b;
+}
+.guestbook {
+    max-width: 500px;
+    background: #F5F5DC;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin: 50px auto;
+    color: black;
+}
+.guestbook h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 36px;
+    color: #E9967A;
+}
+label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #E9967A;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+textarea {
+    height: 100px;
+    resize: none;
+}
+.btn {
+    background: #8FBC8F;
+    color: white;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn:hover {
+    background: #2F4F4F;
+}
+.intro {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #4e4e4e;
+}
+.couple {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.profile {
+    text-align: center;
+}
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #2e7d32;
+}
+.name {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+.nickname {
+    font-style: italic;
+    color: #388e3c;
+}
+.desc {
+    font-size: 14px;
+    color: #4e4e4e;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    color:#E9967A;
+    padding: 20px 0;
+}
+.card {
+    background: 	#F5F5DC;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    display: inline-block;
+    width: 40%;
+    color :#4e4e4e
+ 
+}
+.card h2 {
+    color: #E9967A;
+}
+.btn {
+    display: inline-block;
+    background:#E9967A;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.map-container {
+    margin-top: 20px;
+}
+.gift-btn {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 15px;
+    background:#E9967A;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #f8f8f8;
+    padding: 10px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #666;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+.nav-item i {
+    font-size: 20px;
+}
+
+.nav-item span {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.nav-item:hover,
+.nav-item.active {
+    background-color: #8bbf75;
+    color: white;
+    border-radius: 5px;
+}

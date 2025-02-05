@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan & Buku Tamu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li>
+                <a href="#container" class="nav-item">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="#couple" class="nav-item active">
+                    <i class="fas fa-heart"></i>
+                    <span>Couple</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-item">
+                    <i class="fas fa-calendar-alt"></i>
+                    <span>Event</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="nav-item">
+                    <i class="fas fa-book"></i>
+                    <span>Guest Book</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="header">
+            <img src="images/gambar 1.jpeg" alt="Foto Pasangan">
+            <h1>Undangan Pernikahan</h1>
+        </div>
+        <div class="content">
+            <h2>Zaki Aliansyah & Zhansya Aqeela</h2>
+            <p>Dengan hormat, kami mengundang Anda untuk menghadiri pernikahan kami:</p>
+            <p><strong>Hari, Tanggal:</strong> Sabtu, 15 Maret 2025<br>
+            <strong>Waktu:</strong> 07.00 WIB - Selesai<br>
+            <strong>Tempat:</strong> Gedung Serbaguna, Jl. Hos Cokroaminoto Kuripan Kidul Gg. 4, Pekalongan</p>
+            <p>Merupakan kebahagiaan bagi kami apabila Anda berkenan hadir dan memberikan doa restu.</p>
+            <div class="countdown" id="countdown"></div>
+            <a href="#" class="button">Konfirmasi Kehadiran</a>
+        </div>
+        <div class="footer">
+            <p>Terima kasih atas kehadiran dan doa restunya.</p>
+            <p><strong>Zaki Aliansyah & Zhansya Aqeela</strong></p>
+        </div>
+        <div class="container">
+            <h1>Groom & Bride</h1>
+            <p class="intro">Assalamu'alaikum Warahmatullahi Wabarakatuh<br>
+            Untuk melaksanakan syariat Islam agama-Mu dan menjalankan sunnah Rasul-Mu dalam membentuk keluarga yang sakinah, mawaddah, dan warahmah, dengan memohon rahmat dan ridho Allah SWT.<br>
+            Kami bermaksud menyelenggarakan AKAD NIKAH & RESEPSI pernikahan kami.</p>
+            
+            <div class="couple">
+                <div class="profile">
+                    <img src="images/gambar5.jpeg" alt="Zaki Aliansyah">
+                    <p class="name">Zaki Aliansyah</p>
+                    <p class="nickname">Zaki</p>
+                    <p class="desc">Putra Pertama dari Pasangan<br>Alm. Bapak Suikan dan Alm. Ibu Siti Masliyah<br>Batealit - Jepara, Jawa Tengah</p>
+                </div>
+                
+                <div class="profile">
+                    <img src="images/gambar4.jpeg" alt="Zhansya Aqeela">
+                    <p class="name">Zhansya Aqeela</p>
+                    <p class="nickname">Zhansya</p>
+                    <p class="desc">Putri Kedua dari Pasangan<br>Bapak Abdul Mu'is dan Ibu Shofrotun<br>Pekalongan Selatan - Kota Pekalongan, Jawa Tengah</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="header"> Akad & Resepsi Pernikahan </div>
+                
+                <div class="card">
+                    <h2>Akad Nikah</h2>
+                    <p>Sabtu, 15 Maret 2025<br>Jam 07.00 WIB - 08.00 WIB</p>
+                    <p>Jl. Hos Cokroaminoto Kuripan Kidul Gg. 4, Pekalongan</p>
+                    <a href="#" class="btn">Open Google Maps</a>
+                </div>
+                
+                <div class="card">
+                    <h2>Resepsi</h2>
+                    <p>Sabtu, 15 Maret 2025<br>Jam 11.00 WIB - 13.00 WIB</p>
+                    <p>Jl. Hos Cokroaminoto Kuripan Kidul Gg. 4, Pekalongan</p>
+                    <a href="#" class="btn">Open Google Maps</a>
+                </div>
+                
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.9382829981274!2d109.6684!3d-7.4031!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0!2zN8KwMjQnMTEuNCJTIDEwOcKwNDAnMDIuMCJF!5e0!3m2!1sen!2sid!4v1700000000000" 
+                        width="100%" 
+                        height="300" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy"></iframe>
+                </div>
+                
+                <a href="#" class="gift-btn">🎁 Kirim Hadiah</a>
+            </div>
+    </div>
+    <div class="guestbook">
+        <h2>Buku Tamu</h2>
+        <form>
+            <label for="nama">Nama</label>
+            <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda">
+            <label for="kehadiran">Kehadiran</label>
+            <select id="kehadiran" name="kehadiran">
+                <option>Hadir</option>
+                <option>Tidak Hadir</option>
+            </select>
+            <label for="pesan">Pesan/Doa</label>
+            <textarea id="pesan" name="pesan" placeholder="Tulis pesan untuk mempelai"></textarea>
+            <button type="submit" class="btn">Kirim ✈</button>
+        </form>
+    </div>
+    <script>
+        function countdownTimer() {
+            const weddingDate = new Date('March 15, 2025 10:00:00').getTime();
+            const x = setInterval(function() {
+                const now = new Date().getTime();
+                const distance = weddingDate - now;
+                const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                document.getElementById("countdown").innerHTML = `Acara dimulai dalam: ${days} Hari, ${hours} Jam, ${minutes} Menit, ${seconds} Detik`;
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("countdown").innerHTML = "Acara telah dimulai!";
+                }
+            }, 1000);
+        }
+        countdownTimer();
+    </script>
+</body>
+</html>
